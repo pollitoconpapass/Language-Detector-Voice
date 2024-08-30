@@ -3,3 +3,6 @@ langid==1.1.6
 torch==2.2.0
 torchaudio==2.2.0
 SpeechRecognition==3.10.1
+uvicorn==0.30.6
+python-multipart==0.0.9
+fastapi==0.108.0
