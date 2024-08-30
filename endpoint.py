@@ -36,4 +36,4 @@ async def predict(file: UploadFile = File(...)):
     identifier = LanguageIdentifier.from_modelstring(model, norm_probs=True)
     predicted_language = identifier.classify(transcription)[0]
 
-    return {"transcription": transcription, "language": predicted_language}
+    return {"language": predicted_language, "transcription": transcription}
